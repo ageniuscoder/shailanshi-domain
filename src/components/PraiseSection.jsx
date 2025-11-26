@@ -32,7 +32,7 @@ const PraiseSection = () => {
                 {praise.title}
               </h3>
 
-              <p className="text-base text-gray-700 text-center leading-relaxed">
+              <p className="text-sm sm:text-base text-gray-700 text-center leading-relaxed">
                 {praise.description}
               </p>
             </div>

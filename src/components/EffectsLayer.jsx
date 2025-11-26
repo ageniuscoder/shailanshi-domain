@@ -32,7 +32,8 @@ const EffectsLayer = () => {
   return (
     <div
       id="hearts-container"
-      className="fixed inset-0 pointer-events-none z-40 overflow-hidden"
+      // FIX: Added 'pointer-events-none' so clicks pass through to the content below.
+      className="fixed inset-0 z-40 overflow-hidden pointer-events-none"
     />
   );
 };

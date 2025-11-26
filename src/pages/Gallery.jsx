@@ -14,13 +14,13 @@ const Gallery = () => {
           <div className="text-center mb-12">
             <div className="flex justify-center items-center mb-6">
               <Camera className="text-pink-500 mr-3" size={48} />
-              <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-500 font-playfair animate-fadeIn text-shadow">
+              <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-500 font-playfair animate-fadeIn text-shadow">
                 Iconic Looks Gallery
               </h1>
               <Camera className="text-purple-500 ml-3" size={48} />
             </div>
 
-            <p className="text-lg md:text-2xl text-gray-700 max-w-3xl mx-auto">
+            <p className="text-base md:text-xl text-gray-700 max-w-3xl mx-auto">
               A visual journey through excellence, charm, and undeniable
               charisma. Each image tells a story of someone who's simply on
               another level.
@@ -57,10 +57,10 @@ const Gallery = () => {
           </div>
 
           <div className="bg-gradient-to-r from-pink-500 via-purple-500 to-yellow-500 rounded-3xl shadow-2xl p-8 sm:p-12 text-center transform hover:scale-105 transition-all duration-300 hover:shadow-yellow-400/50">
-            <h3 className="text-3xl md:text-5xl font-bold text-white mb-6 font-playfair text-shadow">
+            <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 font-playfair text-shadow">
               A Picture is Worth a Thousand Flirts 😉
             </h3>
-            <p className="text-lg md:text-2xl text-white leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-white leading-relaxed">
               But even a thousand words can't fully capture the flirty, moody,
               and intelligent spirit of Shailanshi. You just have to experience
               the greatness firsthand! 📸✨

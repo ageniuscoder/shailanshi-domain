@@ -12,12 +12,12 @@ const About = () => {
     <div>
       <section className="pt-32 pb-16 px-4 bg-gradient-to-b from-pink-100 to-purple-100">
         <div className="container mx-auto max-w-6xl">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-500 font-playfair animate-fadeIn text-shadow">
+          <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-500 font-playfair animate-fadeIn text-shadow">
             About Shailanshi
           </h1>
 
           <div className="bg-white rounded-3xl shadow-2xl p-6 md:p-12 mb-16 border-4 border-pink-300 transform hover:scale-[1.005] transition-transform duration-300 hover:shadow-pink-300/50">
-            <p className="text-base md:text-2xl text-gray-700 leading-relaxed mb-6">
+            <p className="text-sm sm:text-base md:text-xl text-gray-700 leading-relaxed mb-6">
               In a world full of ordinary people, Shailanshi stands out with her
               **sharp intelligence** and **charming unpredictability**. She's
               not just future doctor material—she's future{" "}
@@ -27,7 +27,7 @@ const About = () => {
               doctor material.
             </p>
 
-            <p className="text-base md:text-2xl text-gray-700 leading-relaxed mb-6">
+            <p className="text-sm sm:text-base md:text-xl text-gray-700 leading-relaxed mb-6">
               Her personality?{" "}
               <span className="font-bold text-purple-600">
                 Flirty, witty, charming, and highly intelligent
@@ -37,7 +37,7 @@ const About = () => {
               she's feeling playful, watch out for the witty comebacks!
             </p>
 
-            <p className="text-base md:text-2xl text-gray-700 leading-relaxed">
+            <p className="text-sm sm:text-base md:text-xl text-gray-700 leading-relaxed">
               Beautiful? Obviously. Charming? Dangerously so. Smart? Off the
               charts. Adorable? Overwhelmingly. She's basically won the genetic
               and personality lottery, and she's using her powers for good
@@ -45,7 +45,7 @@ const About = () => {
             </p>
           </div>
 
-          <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-600 font-playfair text-shadow">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-600 font-playfair text-shadow">
             The Resume of Iconic Greatness
           </h2>
 

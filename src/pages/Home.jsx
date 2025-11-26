@@ -53,11 +53,11 @@ const Home = () => {
 
       <section className="py-12 sm:py-20 px-4 bg-gradient-to-b from-purple-50 via-pink-50 to-purple-100">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl sm:text-5xl md:text-6xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-500 font-playfair animate-fadeIn text-shadow">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-500 font-playfair animate-fadeIn text-shadow">
             Welcome to Shailanshi's World
           </h2>
 
-          <p className="text-base sm:text-xl md:text-2xl text-center text-gray-700 mb-16 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg md:text-2xl text-center text-gray-700 mb-16 max-w-3xl mx-auto leading-relaxed">
             Step into a realm where **intelligence meets moody charm**, where
             ambition meets flair, and where the future Dr. Shailanshi shines
             bright. This is not just a website—it's a celebration of iconic
@@ -81,10 +81,10 @@ const Home = () => {
           </div>
 
           <div className="bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-500 rounded-3xl shadow-2xl p-8 sm:p-12 text-center transform hover:scale-105 transition-all duration-300 hover:shadow-purple-400/50">
-            <h3 className="text-3xl md:text-5xl font-bold text-white mb-6 font-playfair text-shadow">
+            <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 font-playfair text-shadow">
               Did You Know?
             </h3>
-            <p className="text-lg sm:text-xl md:text-2xl text-white leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-white leading-relaxed">
               Shailanshi isn't just preparing to be a doctor—she's dedicating
               herself to service. With her sharp mind and playful mood, she's
               going to be the most charming and intelligent doctor the world has

@@ -12,12 +12,12 @@ const Hero = () => {
           The Star of Our Hearts: Shailanshi
         </h1>
 
-        <p className="text-lg sm:text-2xl md:text-3xl text-gray-800 font-semibold mb-4 animate-slideUp">
+        <p className="text-base sm:text-2xl md:text-3xl text-gray-800 font-semibold mb-4 animate-slideUp">
           Flirty. Moody. Charming. Intelligent.
         </p>
 
         <div className="mt-8 inline-block">
-          <div className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-8 py-4 rounded-full text-xl font-bold shadow-2xl transform hover:scale-105 hover:shadow-pink-400/50 transition-all duration-300 pink-glow-shadow">
+          <div className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-bold shadow-2xl transform hover:scale-105 hover:shadow-pink-400/50 transition-all duration-300 pink-glow-shadow">
             ✨ Celebrate Her Iconic Moods ✨
           </div>
         </div>

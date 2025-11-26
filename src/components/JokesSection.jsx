@@ -20,7 +20,7 @@ const JokesSection = () => {
             >
               <div className="flex items-start space-x-4">
                 <Smile className="text-yellow-500 flex-shrink-0" size={32} />
-                <p className="text-lg md:text-2xl text-gray-800 font-semibold leading-relaxed">
+                <p className="text-base sm:text-lg md:text-xl text-gray-800 font-semibold leading-relaxed">
                   {joke}
                 </p>
               </div>
@@ -29,7 +29,7 @@ const JokesSection = () => {
         </div>
 
         <div className="text-center">
-          <p className="text-base md:text-xl text-gray-600 italic">
+          <p className="text-sm sm:text-base md:text-lg text-gray-600 italic">
             **Disclaimer**: Shailanshi itni pyari hain ki humare jokes bhi unke
             liye **compliment** hain! ✨
           </p>

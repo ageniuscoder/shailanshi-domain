@@ -4,7 +4,7 @@ const ImageComponent = () => {
   return (
     <section className="py-12 sm:py-16 px-4 bg-gradient-to-b from-purple-50 to-pink-50">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-8 sm:mb-12 text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-600 font-playfair text-shadow">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-8 sm:mb-12 text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-600 font-playfair text-shadow">
           The Iconic Queen Herself
         </h2>
 
@@ -53,7 +53,7 @@ const ImageComponent = () => {
         </div>
 
         <div className="text-center bg-white rounded-2xl shadow-2xl p-6 sm:p-8 border-4 border-pink-300 transform hover:scale-[1.01] transition-transform duration-300 hover:shadow-xl hover:shadow-pink-300/50">
-          <p className="text-xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 mb-4 font-playfair">
+          <p className="text-lg sm:text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 mb-4 font-playfair">
             "My mood is unpredictable, but my focus is 100%." 😌
           </p>
           <p className="text-lg text-gray-700">- Shailanshi (the real one)</p>

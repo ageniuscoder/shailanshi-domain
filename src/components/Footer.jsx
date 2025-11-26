@@ -13,7 +13,7 @@ const Footer = () => {
           <Heart className="text-pink-300 fill-pink-300 ml-3" size={36} />
         </div>
 
-        <p className="text-pink-200 text-lg sm:text-xl mb-4 font-semibold">
+        <p className="text-pink-200 text-base sm:text-lg mb-4 font-semibold">
           The world is lucky to have someone this iconic, flirty, and brilliant.
         </p>
 
@@ -22,7 +22,7 @@ const Footer = () => {
           maker.
         </div>
 
-        <div className="mt-6 text-yellow-300 font-bold text-xl sm:text-2xl animate-pulse pink-glow-shadow">
+        <div className="mt-6 text-yellow-300 font-bold text-lg sm:text-xl animate-pulse pink-glow-shadow">
           ✨ LONG LIVE THE QUEEN ✨
         </div>
       </div>
