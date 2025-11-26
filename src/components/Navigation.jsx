@@ -24,7 +24,7 @@ const Navigation = () => {
 
   const navLinks = [
     { path: "/", label: "Home" },
-    { path: "/about", label: "About Queen" },
+    { path: "/about", label: "About Shailanshi" },
     { path: "/gallery", label: "Gallery" },
     { path: "/tribute", label: "Tribute" },
   ];
@@ -40,18 +40,21 @@ const Navigation = () => {
     <nav className={navClasses}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
-          <Link to="/" className="flex items-center space-x-3 group">
+          <Link
+            to="/"
+            className="flex items-center space-x-3 group transition-transform duration-300 hover:scale-[1.05]"
+          >
             <Crown
               className="text-yellow-300 group-hover:scale-110 transition-transform"
               size={36}
             />
             <div className="flex flex-col items-start">
               <h1 className="text-2xl md:text-3xl font-bold text-white font-playfair leading-none">
-                Nancyy's Domain
+                Shailanshi's Domain
               </h1>
               {/* UPDATED: Changed tagline to a more elegant phrase */}
               <p className="text-xs text-yellow-300 font-semibold uppercase tracking-wider">
-                Where Majesty Reigns Supreme.
+                Where Dedication Blooms.
               </p>
             </div>
             <Crown
@@ -92,16 +95,18 @@ const Navigation = () => {
         </div>
 
         {isOpen && (
-          <div className="md:hidden pb-4 space-y-3">
+          // IMPROVED: Using a slightly different purple with more opaque background for mobile
+          <div className="md:hidden pb-4 pt-2 space-y-3 bg-purple-900 bg-opacity-90 rounded-b-lg">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
                 onClick={() => setIsOpen(false)}
-                className={`block text-lg font-semibold py-2 px-4 rounded-lg transition-all duration-300 ${
+                className={`block text-lg font-semibold py-2 px-4 mx-2 rounded-lg transition-all duration-300 ${
                   isActive(link.path)
-                    ? "bg-yellow-300 text-purple-900"
-                    : "text-white hover:bg-white hover:bg-opacity-20 hover:text-purple-900" // FIX: Added hover:text-purple-900
+                    ? "bg-yellow-300 text-purple-900 shadow-lg"
+                    : // UPDATED: Soft hover effect
+                      "text-white hover:bg-yellow-100 hover:bg-opacity-10 hover:text-yellow-300"
                 }`}
               >
                 {link.label}

@@ -20,8 +20,9 @@ const ScrollIndicator = () => {
 
   return (
     <div className="fixed top-0 left-0 right-0 z-[60] h-1">
+      {/* IMPROVED: Stronger shadow for aesthetic blend */}
       <div
-        className="h-full bg-gradient-to-r from-pink-500 to-purple-500 shadow-lg shadow-pink-500/50 transition-all duration-100 ease-out"
+        className="h-full bg-gradient-to-r from-pink-500 to-purple-500 shadow-lg shadow-pink-500/70 transition-all duration-100 ease-out"
         style={{ width: `${scrollProgress}%` }}
       />
     </div>

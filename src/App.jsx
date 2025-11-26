@@ -38,7 +38,8 @@ function App() {
 
   return (
     <Router>
-      <div className="min-h-screen bg-gradient-to-br from-pink-100 via-purple-100 to-yellow-100 custom-cursor">
+      {/* IMPROVED: Added a custom selection style for aesthetic polish */}
+      <div className="min-h-screen bg-gradient-to-br from-pink-100 via-purple-100 to-yellow-100 custom-cursor selection:bg-pink-300">
         <ScrollIndicator /> {/* NEW COMPONENT */}
         <EffectsLayer />
         <Navigation />

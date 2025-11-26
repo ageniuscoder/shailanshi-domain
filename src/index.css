@@ -1,20 +1,13 @@
 @import "tailwindcss";
 
-/* Removed heart cursor from universal selector (*) 
-  and applied it selectively to links and buttons for better UX.
-*/
-/* * {
-  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="%23FF1493"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>'),
-    auto;
-} */
-
 /* Apply custom heart cursor to interactive elements */
 a,
 button,
 [role="button"],
 .custom-cursor a,
 .custom-cursor button {
-  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="%23FF1493"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>'),
+  /* Using a more vibrant pink heart */
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="%23FF69B4" stroke="%23800080" stroke-width="1"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>'),
     pointer !important; /* Use pointer as fallback */
 }
 
@@ -30,7 +23,6 @@ body {
 }
 
 .custom-cursor {
-  /* This class on App.jsx still uses the fallback, but the heart is applied via element selectors above */
   cursor: auto;
 }
 
@@ -122,8 +114,24 @@ body {
 }
 
 @layer utilities {
+  /* IMPROVED: Stronger, but readable text shadow for gradients */
   .text-shadow {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 1.5px 1.5px 3px rgba(0, 0, 0, 0.4);
+  }
+  /* IMPROVED: Distinct, pulsing pink glow shadow for key elements */
+  .pink-glow-shadow {
+    filter: drop-shadow(0 0 10px rgba(255, 105, 180, 0.8));
+    animation: pulse-glow 2s infinite alternate;
+  }
+}
+
+/* NEW: Animation for the pink glow */
+@keyframes pulse-glow {
+  0% {
+    filter: drop-shadow(0 0 5px rgba(255, 105, 180, 0.6));
+  }
+  100% {
+    filter: drop-shadow(0 0 15px rgba(255, 105, 180, 1));
   }
 }
 
@@ -131,6 +139,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* IMPROVED: Theme-specific selection color */
 ::selection {
   background-color: #ff69b4;
   color: white;

@@ -83,7 +83,8 @@ const AudioPlayer = forwardRef((props, ref) => {
       <div className="fixed bottom-4 right-4 z-50">
         <button
           onClick={togglePlayPause}
-          className="flex items-center justify-center p-3 rounded-full bg-pink-600 text-white shadow-xl hover:bg-pink-700 transition-all transform hover:scale-110"
+          // ADDED: pink-glow-shadow for a dramatic pulsing effect
+          className="flex items-center justify-center p-3 rounded-full bg-pink-600 text-white shadow-xl hover:bg-pink-700 transition-all transform hover:scale-110 pink-glow-shadow"
           title={isPlaying ? "Pause Royal Music" : "Play Royal Music"}
         >
           {isPlaying ? (
