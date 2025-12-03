@@ -165,12 +165,12 @@ export const galleryImages = [
     description: "Soft, stunning, and sometimes sassily moody.",
   },
   {
-    url: "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=800",
+    url: "7.jpeg",
     title: "Study Vibes",
     description: "Focused… unless she decides to flirt instead of study.",
   },
   {
-    url: "https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&w=800",
+    url: "8.jpeg",
     title: "Joyful Energy",
     description: "Her smile: mood lifter. Her mood: depends on the day 😭❤️.",
   },
