@@ -22,7 +22,8 @@ const Footer = () => {
           maker.
         </div>
 
-        <div className="mt-6 text-yellow-300 font-bold text-lg sm:text-xl animate-pulse pink-glow-shadow">
+        {/* MODIFIED: Added animate-float for subtle vertical movement */}
+        <div className="mt-6 text-yellow-300 font-bold text-lg sm:text-xl animate-pulse pink-glow-shadow animate-float">
           ✨ LONG LIVE THE QUEEN ✨
         </div>
       </div>

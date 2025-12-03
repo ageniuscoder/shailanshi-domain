@@ -196,3 +196,22 @@ export const nancyyJokes = [
   "Kabhi kabhi itni sweet hoti hai ki dil pighal jaye… kabhi itni savage ki banda chup ho jaye.",
   "Mood achha ho toh compliment deti hai… mood off ho toh roast bhi kar deti hai.",
 ];
+
+// ⭐ ROYAL DECREES (NEW SECTION)
+export const royalDecrees = [
+  {
+    title: "The Decree of Dedication",
+    text: "Her Majesty decrees that all time not spent in charming banter must be dedicated to serious NEET preparation. (Compliance is mandatory, though mood-dependent exceptions apply).",
+    icon: <BookOpen className="text-purple-500" size={28} />,
+  },
+  {
+    title: "The Edict of Elegance",
+    text: "All subjects must acknowledge that elegance is not a choice, but a lifestyle, and Her Majesty embodies it effortlessly. (Especially when she's trying to hide a cheeky smile).",
+    icon: <Crown className="text-yellow-500" size={28} />,
+  },
+  {
+    title: "The Law of Unpredictability",
+    text: "Her Royal Mood is a divine secret. It can shift from sweet to sassy in an instant. All must adapt and be ready for the flirt or the fire.",
+    icon: <Heart className="text-pink-500 fill-pink-500" size={28} />,
+  },
+];

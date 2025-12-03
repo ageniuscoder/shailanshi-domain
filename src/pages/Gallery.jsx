@@ -31,7 +31,8 @@ const Gallery = () => {
             {galleryImages.map((image, index) => (
               <div
                 key={index}
-                className="group relative overflow-hidden rounded-3xl shadow-2xl transform hover:scale-[1.03] transition-all duration-500 border-4 border-transparent hover:border-pink-400 hover:shadow-pink-500/50"
+                // MODIFIED: Replaced old hover styles with the powerful hover-3d-shadow utility
+                className="group relative overflow-hidden rounded-3xl shadow-2xl transform transition-all duration-500 border-4 border-transparent hover:border-pink-400 hover:shadow-pink-500/50 hover-3d-shadow"
               >
                 <img
                   src={image.url}

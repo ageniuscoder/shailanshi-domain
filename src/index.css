@@ -64,6 +64,21 @@ body {
   animation: spin-slow 20s linear infinite;
 }
 
+/* NEW: Subtle floating effect for icons/seals */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -123,6 +138,12 @@ body {
     filter: drop-shadow(0 0 10px rgba(255, 105, 180, 0.8));
     animation: pulse-glow 2s infinite alternate;
   }
+  /* NEW: 3D shadow effect for interactive cards (e.g., Gallery) */
+  .hover-3d-shadow:hover {
+    box-shadow: 20px 20px 60px rgba(147, 112, 219, 0.5),
+      /* Purple */ -20px -20px 60px rgba(255, 105, 180, 0.5); /* Pink */
+    transform: scale(1.03) perspective(1000px) rotateX(2deg) rotateY(2deg);
+  }
 }
 
 /* NEW: Animation for the pink glow */
@@ -133,6 +154,22 @@ body {
   100% {
     filter: drop-shadow(0 0 15px rgba(255, 105, 180, 1));
   }
+}
+
+/* NEW: Preloader fade-out animation */
+@keyframes preloader-fade-out {
+  from {
+    opacity: 1;
+    visibility: visible;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.fade-out {
+  animation: preloader-fade-out 1s ease-out 0.2s forwards;
 }
 
 html {

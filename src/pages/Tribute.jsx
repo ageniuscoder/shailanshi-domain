@@ -1,7 +1,7 @@
 // src/pages/Tribute.jsx
 import React from "react";
 import Footer from "../components/Footer";
-// REMOVED: import RoyalDecree from "../components/RoyalDecree";
+import RoyalDecree from "../components/RoyalDecree"; // NEW IMPORT: RoyalDecree
 import { tributes, funFacts } from "../data/shailanshiData.jsx"; // Imported data
 import { Heart, Star, Crown, Sparkles } from "lucide-react";
 
@@ -37,6 +37,9 @@ const Tribute = () => {
               </div>
             ))}
           </div>
+          {/* NEW: RoyalDecree component added here */}
+          <RoyalDecree />
+
           <div className="bg-white rounded-3xl shadow-2xl p-8 sm:p-12 mb-16 border-4 border-yellow-300 transform hover:scale-[1.005] transition-transform duration-300 hover:shadow-yellow-300/50">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-pink-600 font-playfair text-shadow">
               Fun Facts About Shailanshi

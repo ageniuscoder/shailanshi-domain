@@ -75,10 +75,11 @@ const Navigation = () => {
               <Link
                 key={link.path}
                 to={link.path}
+                // MODIFIED: Added hover:scale-110 hover:-translate-y-1 for a bouncy effect
                 className={`text-lg font-semibold transition-all duration-300 relative group ${
                   isActive(link.path)
                     ? "text-yellow-300 scale-110"
-                    : "text-white hover:text-yellow-300"
+                    : "text-white hover:text-yellow-300 hover:scale-110 hover:-translate-y-1"
                 }`}
               >
                 {link.label}

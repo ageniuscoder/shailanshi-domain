@@ -4,8 +4,8 @@ import { Gem } from "lucide-react";
 
 const RoyaltySeal = () => {
   return (
-    // ADJUSTED: moved slightly up on mobile, added hover scale
-    <div className="fixed bottom-6 left-4 z-50 pointer-events-none transform hover:scale-[1.15] transition-transform duration-500">
+    // MODIFIED: Added animate-float for subtle vertical movement
+    <div className="fixed bottom-6 left-4 z-50 pointer-events-none transform hover:scale-[1.15] transition-transform duration-500 animate-float">
       <Gem
         size={40}
         // ADDED: pink-glow-shadow utility class for pulsing effect
